@@ -1,0 +1,17 @@
+
+---
+
+### How to upload to GitHub
+
+1. Create a folder `number-guessing-game` on your computer.
+2. Add the files above.
+3. Open terminal / command prompt and run:
+
+```bash
+cd path/to/number-guessing-game
+git init
+git add .
+git commit -m "Initial commit: Add number guessing game"
+git branch -M main
+git remote add origin https://github.com/yourusername/number-guessing-game.git
+git push -u origin main
